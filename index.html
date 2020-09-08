@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="libraryFiles/p5.min.js"></script>
+    <script src="libraryFiles/p5.dom.min.js"></script>
+    <script src="libraryFiles/p5.sound.min.js"></script>
+    <script src="libraryFiles/p5.play.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+   
+    <style>
+      button {
+        display: inline-block;
+        padding: 9px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        color: #fff;
+        background-color:#FFD700;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 9px #999;
+      
+      }
+      
+      button:hover {background-color:  #B8860B;}
+      h1{font-size: 60px;}
+      h1{color: red;}
+      h1{font-family: Arial Black;}
+      </style>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDFh6ixPR-U59rQSYze19XK5wDI_uSDipU",
+    authDomain: "fruit-catcher-88262.firebaseapp.com",
+    databaseURL: "https://fruit-catcher-88262.firebaseio.com",
+    projectId: "fruit-catcher-88262",
+    storageBucket: "fruit-catcher-88262.appspot.com",
+    messagingSenderId: "127457963321",
+    appId: "1:127457963321:web:194c42d76bf79882f64ce8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+  <script src="sketch.js"></script>
+</body>
+</html>
